@@ -1,10 +1,8 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println(scan.nextLine());
-        System.out.println(scan.next());
-        scan.close();
+        System.out.printf("%7d%n",  11111);
+        System.out.printf("%-7d%n",  11111);
+        System.out.printf("%07d%n",  11111);
+        System.out.printf("%,7d%n",  11111);
     }
 }
