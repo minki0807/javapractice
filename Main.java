@@ -1,26 +1,14 @@
-import  java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        System.out.println("알파벳 소문자를 입력하세요 : ");
-        Scanner scan = new Scanner(System.in);
-        String str = scan.next();
-        switch (str) {
-            case "a":
-                System.out.println("A");
-                break;
-
-            case "b":
-                System.out.println("B");
-                break;
-
-            case "c":
-                System.out.println("C");
-                break;
-
-            default:
-                System.out.println("일치하는 알파벳이 없습니다.");
+        int i = 2;
+        while (i <= 9) {
+            System.out.println("---" + i + "단 ---");
+            int j = 1;
+            while (j <= 9) {
+                System.out.println(i + " x " + j + " = " + (i * j));
+                j++;
+            }
+            i++;
         }
-        scan.close();
     }
 }
