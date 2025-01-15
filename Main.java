@@ -1,14 +1,19 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int i = 2;
-        while (i <= 9) {
-            System.out.println("---" + i + "단 ---");
-            int j = 1;
-            while (j <= 9) {
-                System.out.println(i + " x " + j + " = " + (i * j));
-                j++;
+        Scanner scanner = new Scanner(System.in);
+        int sum = 0;
+        while(true) {
+            System.out.println("숫자를 무한 반복해서 더하는 중입니다. ");
+            System.out.print("숫자를 입력하세요/ -> ");
+            int input = scanner.nextInt();
+            sum = sum + input;
+            System.out.println("결과: " + sum);
+            if(sum > 10000) {
+                break;
             }
-            i++;
         }
+        System.out.println("반복문을 탈출했습니다.");
     }
 }
