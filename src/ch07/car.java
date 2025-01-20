@@ -19,11 +19,7 @@ public class Car {
         countOfCarsInfo(); // 자동차 수량 확인 메서드 호출
     }
 
-    // 매개변수가 1개 있는 생성자
-    public Car(int maxSpeed) {
-        this.maxSpeed =  maxSpeed;
-        countOfCars++;
-    }
+
 
     // 매개변수가 2개인 생성자
     public Car(String brand, int year) {
