@@ -1,4 +1,4 @@
-package src.ch08;
+package src.ch08_1;
 
 public class Animal {
     String name;
