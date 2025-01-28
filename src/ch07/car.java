@@ -1,6 +1,6 @@
 package src.ch07;
 
-public class Car {
+public class ch07_Car {
     // 클래스 변수
     static int countOfCars = 0; // 자동차 수량
     // 인스턴스 변수
@@ -12,7 +12,7 @@ public class Car {
     private String carNumber; // 차량번호
 
     // 기본 생성자
-    public Car() {
+    public ch07_Car() {
         System.out.println("새로운 자동차 객체가 생성됐습니다.");
         this.carInfo();
         countOfCars++; // 객체가 생성될 때마다 자동차 수 1 증가
@@ -22,7 +22,7 @@ public class Car {
 
 
     // 매개변수가 2개인 생성자
-    public Car(String brand, int year) {
+    public ch07_Car(String brand, int year) {
         System.out.println("새로운 자동차 객체가 생성됐습니다.");
         this.brand = brand;
         this.year = year;
@@ -32,7 +32,7 @@ public class Car {
         countOfCarsInfo(); // 자동차 수량 확인 메서드 호출
     }
     // 매개변수가 3개인 생성자
-    public Car(String brand, int year, String color) {
+    public ch07_Car(String brand, int year, String color) {
         System.out.println("새로운 자동차 객체가 생성됐습니다.");
         this.brand = brand;
         this.year = year;
