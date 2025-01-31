@@ -2,7 +2,8 @@ package src.ch12;
 
 public class TraditionalExample {
     public static void main(String[] args) {
-        EvenCheck even = new EvenCheck();
+
+        Check even = n -> n % 2 == 0? true : false;
         System.out.println(even.isEven(15));
     }
 }
