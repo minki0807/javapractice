@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3cf28be-9c9e-4dcd-ba3b-64033431e68f" name="변경" comment="0131 - ch12 Runnable interface" />
+    <list default="true" id="f3cf28be-9c9e-4dcd-ba3b-64033431e68f" name="변경" comment="0131 - ch12 Runnable interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,39 +47,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/myong/Desktop/Github/javapractice",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "애플리케이션.AccessExampleMain.executor": "Run",
-    "애플리케이션.Ch07_3.executor": "Run",
-    "애플리케이션.Ch08_2.executor": "Run",
-    "애플리케이션.Ch08_3.executor": "Run",
-    "애플리케이션.Ch09_2.executor": "Run",
-    "애플리케이션.Ch09_selfcheck.executor": "Run",
-    "애플리케이션.Ch10_2.executor": "Run",
-    "애플리케이션.Ch10_3.executor": "Run",
-    "애플리케이션.Ch10_selfcheck.executor": "Run",
-    "애플리케이션.Ch11_2.executor": "Run",
-    "애플리케이션.Ch11_4.executor": "Run",
-    "애플리케이션.Ch11_selfcheck.executor": "Run",
-    "애플리케이션.Ch12_2.executor": "Run",
-    "애플리케이션.FunctionExample.executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.PredicateExample.executor": "Run",
-    "애플리케이션.RunnableExample.executor": "Run",
-    "애플리케이션.SelfCheckCh7.executor": "Run",
-    "애플리케이션.TraditionalExample.executor": "Run",
-    "애플리케이션.TryCatchExample.executor": "Run",
-    "애플리케이션.ch08_2.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;javaprac1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/myong/Desktop/Github/javapractice&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;애플리케이션.AccessExampleMain.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch07_3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch08_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch08_3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch09_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch09_selfcheck.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch10_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch10_3.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch10_selfcheck.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch11_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch11_4.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch11_selfcheck.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Ch12_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.FunctionExample.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PredicateExample.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.SelfCheckCh7.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.TraditionalExample.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.TryCatchExample.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ch08_2.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\myong\Desktop\Github\javapractice\src\ch08_selfcheck" />
@@ -87,6 +89,21 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="src.ch08_selfcheck" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="javapractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="javapractice" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
